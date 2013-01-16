@@ -3,7 +3,7 @@
 	<div id="pagebody">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="post">
-		<div class="PostTitle"><?php the_title(); ?></div>
+		<div class="PostHead"><span class="PostTitle"><?php the_title(); ?></span>     <span class="PostDate"><?php the_time('jS F, Y'); ?></span></div>
 		<?php the_content(); ?>
 	</div>
 <?php endwhile;?>

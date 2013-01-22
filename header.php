@@ -69,9 +69,9 @@
       </div>
     </div>-->
 	
-	<div class="container">
+	<div id="masthead" class="container">
 		<h1 id="blog-title"><span><a href="<?php echo get_option('home') ?>/" title="<?php bloginfo('name') ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
-		<div id="blog-description"><?php bloginfo('description') ?></div>
+		<!--<div id="blog-description"><?php bloginfo('description') ?></div>-->
 
 		<div id="masthead-meta">  
 		  <!-- meta Area -->

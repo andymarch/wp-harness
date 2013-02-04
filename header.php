@@ -70,8 +70,8 @@
     </div>-->
 	
 	<div id="masthead" class="container">
-		<div class="container">
-			<h1 id="blog-title"><span><a href="<?php echo get_option('home') ?>/" title="<?php bloginfo('name') ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
+		<div id="logo" class="container">
+			
 		</div>
 			<div id="navwrap">
 			<div id="masthead-meta" class="container">  

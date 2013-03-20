@@ -139,6 +139,12 @@ h1,h2,h3,h4,h5,h6 {
 	display:block;
 }
 
+.postfoot{
+	padding-top: 10px;
+	border-bottom:1px solid #262927;
+	display:block;
+}
+
 .PostTitle {
 	color:#D0353D;
 	font-size:180%;

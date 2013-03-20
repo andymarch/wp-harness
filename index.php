@@ -3,8 +3,9 @@
 	<div id="pagebody">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="post">
-		<div class="PostHead"><span class="PostTitle"><?php the_title(); ?></span>     <span class="PostDate"><?php the_time('jS F, Y'); ?></span></div>
+		<div class="PostHead"><span class="PostTitle"><a href="<?php the_permalink() ?>" title="<?php printf(__('Permalink to %s', 'sandbox'), wp_specialchars(get_the_title(), 1)) ?>" rel="bookmark"><?php the_title() ?></a></span>     <span class="PostDate"><?php the_time('jS F, Y'); ?></span></div>
 		<?php the_content(); ?>
+		<div class="PostFoot"></div>
 	</div>
 <?php endwhile;?>
 	<div id="nav-below" class="navigation">

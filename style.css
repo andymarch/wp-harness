@@ -151,6 +151,11 @@ h1,h2,h3,h4,h5,h6 {
 	font-size:180%;
 }
 
+.socialLink{
+	width: 25px;
+	height: 25px;
+}
+
 #SiteLogo{
 	text-align:center;
 	padding: 10px;

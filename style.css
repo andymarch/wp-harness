@@ -106,13 +106,17 @@ body {
 }
 
 .post blockquote{
-	font-style: italic;
 	margin:0;
 	padding:5px;
 	background-color:#262927;
 	border-top:1px solid #262927;
 	border-bottom:1px solid #262927;
 	border-left:1px solid #262927;
+}
+
+blockquote p{
+	font-style: italic;
+	word-wrap: break-word;
 }
 
 a {

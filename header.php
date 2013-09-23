@@ -19,7 +19,7 @@
 			<p>
 			<a href="https://twitter.com/andymarch" title="Twitter" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/twitter.png"/></a>  
 			<a href="https://github.com/andymarch" title="GitHub" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/github.png"/></a>  
-			<a href="https://plus.google.com/u/0/115663453266966490755" title="Google+" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/google.png"/></a>  
+			<a href="https://plus.google.com/115663453266966490755" title="Google+" rel="author"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/google.png"/></a>  
 			<a href="http://www.facebook.com/andy.j.march" title="Facebook" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/facebook.png"/></a>  
 			<a href="http://www.linkedin.com/in/andymarch" title="LinkedIn" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/linkedin.png"/></a>  
 			<a href="http://andymarch.co.uk/feed/" title="RSS" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/rss.png"/></a>

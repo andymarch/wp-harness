@@ -9,4 +9,5 @@
 	} 
 	add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 	add_filter( 'show_admin_bar', '__return_false' );
+	add_filter( 'pre_comment_content', 'wp_specialchars' );
  ?>

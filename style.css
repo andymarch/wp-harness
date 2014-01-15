@@ -95,7 +95,7 @@ blockquote, q {
 body { 
 	background-color:#1f2320;
     padding-bottom: 40px; 
-	font-family: 'Trebuchet MS', Tahoma, Arial, Helvetica, sans-serif;
+	font-family: 'Lato', sans-serif;
 	line-height:1.2em;
 	font-size:0.8em;
 	color: white;
@@ -107,11 +107,10 @@ body {
 
 .post blockquote{
 	margin:0;
-	padding:5px;
-	background-color:#262927;
-	border-top:1px solid #262927;
-	border-bottom:1px solid #262927;
-	border-left:1px solid #262927;
+	padding:20px;
+	font-size:80%;
+	color: #E0E0E0;
+	line-height:1em;
 }
 
 blockquote p{
@@ -150,7 +149,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .PostTitle {
-	font-family: 'Trebuchet MS', Tahoma, Arial, Helvetica, sans-serif;
 	color:#D0353D;
 	font-size:180%;
 }
@@ -166,7 +164,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #SiteName{
-	font-family: 'Trebuchet MS', Tahoma, Arial, Helvetica, sans-serif;
 	font-size: 48px;
 	line-height: 40px;
 	letter-spacing: -1px;
@@ -177,7 +174,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #SiteDescription{
-	font-family: Gill Sans, Verdana;
 	font-size: 11px;
 	line-height: 14px;
 	text-transform: uppercase;
@@ -201,7 +197,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #masthead-meta a{
 	color:white;
-	font-weight:bold;
+	text-transform:uppercase;
 	padding: 5px;
 	vertical-align: middle;
 }

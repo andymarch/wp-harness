@@ -5,6 +5,7 @@
     <title><?php bloginfo('name') ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Andy March">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 	<?php wp_head(); ?>

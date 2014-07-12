@@ -95,9 +95,9 @@ blockquote, q {
 body { 
 	background-color:#1f2320;
     padding-bottom: 40px; 
-	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height:1.2em;
-	font-size:0.8em;
 	color: white;
 }
 
@@ -106,11 +106,12 @@ body {
 }
 
 .post blockquote{
-	margin:0;
-	padding:20px;
 	font-size:80%;
 	color: #E0E0E0;
 	line-height:1em;
+	color: #999999;
+	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, serif;
+	margin: 15px;
 }
 
 blockquote p{
@@ -132,10 +133,6 @@ p, #container li{
 	margin-bottom:0.5em;margin-top:0.5em;line-height:1.7em;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color:#D0353D;
-}
-
 .PostHead{
 	margin-bottom:10px;
 	border-bottom:1px solid #262927;
@@ -150,7 +147,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .PostTitle {
 	color:#D0353D;
-	font-size:180%;
+	font-size:200%;
+	font-weight:lighter;
 }
 
 .socialLink{

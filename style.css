@@ -1,5 +1,4 @@
-@import url('bootstrap/css/bootstrap.css'); 
-@import url('bootstrap/css/bootstrap-responsive.css'); 
+@import url('bootstrap/css/bootstrap.css');
 
 /* CSS RESET */
 html, body, div, span, applet, object, iframe,
@@ -96,7 +95,7 @@ body {
 	background-color:#1f2320;
     padding-bottom: 40px; 
 	font-size: 13px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height:1.2em;
 	color: white;
 }
@@ -161,16 +160,6 @@ p, #container li{
 	padding: 10px;
 }
 
-#SiteName{
-	font-size: 48px;
-	line-height: 40px;
-	letter-spacing: -1px;
-	color: #444;
-	margin: 0 0 0 0;
-	padding: 0 0 5 0;
-    font-weight: 100;
-}
-
 #SiteDescription{
 	font-size: 11px;
 	line-height: 14px;
@@ -204,7 +193,7 @@ p, #container li{
 	width: 100%;
 	height: 240px;
 	position: relative;
-	background: url(images/spanningbg.jpg) no-repeat center top fixed; 
+	background: url(images/fullbleed.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -220,6 +209,19 @@ p, #container li{
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
+}
+
+#SiteName{
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	margin: 0 0 0 0;
+	padding: 0 0 5 0;
+}
+
+#SiteName a{
+	color: #444;
 }
 
 #comment{

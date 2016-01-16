@@ -219,6 +219,7 @@ p, #container li{
 	height:25px;
 	position: absolute;
 	bottom: 0px;
+	left: 0px;
 }
 
 #comment{

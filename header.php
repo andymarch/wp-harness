@@ -18,11 +18,11 @@
 			<p id="SiteName"><a href="<?php echo get_option('home') ?>/" title="<?php bloginfo('name') ?>" rel="home"><?php bloginfo('name') ?></a></p>
 			<p id="SiteDescription"><?php bloginfo('description') ?></p>
 			<p id="SocialMedia">
-			<a href="https://twitter.com/andymarch" title="Twitter" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/twitter.png"/></a>  
-			<a href="https://github.com/andymarch" title="GitHub" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/github.png"/></a>  
-			<a href="http://www.facebook.com/andy.j.march" title="Facebook" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/facebook.png"/></a>  
-			<a href="http://www.linkedin.com/in/andymarch" title="LinkedIn" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/linkedin.png"/></a>  
-			<a href="http://andymarch.co.uk/feed/" title="RSS" rel="home"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/rss.png"/></a>
+			<a href="https://twitter.com/andymarch" title="Twitter" rel="me"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/twitter.png"/></a>  
+			<a href="https://github.com/andymarch" title="GitHub" rel="me"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/github.png"/></a>  
+			<a href="http://www.facebook.com/andy.j.march" title="Facebook"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/facebook.png"/></a>  
+			<a href="http://www.linkedin.com/in/andymarch" title="LinkedIn"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/linkedin.png"/></a>  
+			<a href="http://andymarch.co.uk/feed/" title="RSS"><img class="socialLink" src="<?php bloginfo('template_url'); ?>/images/rss.png"/></a>
 			</p>
 		</div>
 			<div id="navwrap">
